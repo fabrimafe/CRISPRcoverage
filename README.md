@@ -15,16 +15,16 @@ utilities_LSF contains bash scripts that load modules on a LSF cluster and can b
 R contains R scripts for statistical tests and analyses
 
 .
-├── R
-│   ├── allchr_coverageplot.R
-│   ├── chrarm_deletions2table.R
-│   ├── chrarm_deletions2table_tt4.R
-│   ├── chrarm_deletions_plotcustome.R
-│   ├── chrarm_deletions_plot.R
-│   ├── chrarm_deletions.R
-│   └── chrarm_deletions_scan.R
-├── README.md
-└── utilities_LSF
-    ├── chrarm_deletions2table.sh
-    └── script_cov.sh
+ * [R](./R)
+   * [allchr_coverageplot.R](./R/allchr_coverageplot.R)
+   * [chrarm_deletions2table.R](./R/chrarm_deletions2table.R)
+   * [chrarm_deletions2table_tt4.R](./R/chrarm_deletions2table_tt4.R)
+   * [chrarm_deletions_plotcustome.R](./R/chrarm_deletions_plotcustome.R)
+   * [chrarm_deletions_plot.R](./R/chrarm_deletions_plot.R)
+   * [chrarm_deletions.R](./R/chrarm_deletions.R)
+   * [chrarm_deletions_scan.R](./R/chrarm_deletions_scan.R)
+ * [utilities_LSF](./utilities_LSF)
+   * [chrarm_deletions2table.sh](./utilities_LSF/chrarm_deletions2table.sh)
+   * [script_cov.sh](./utilities_LSF/script_cov.sh)
+ * [README.md](./README.md)(base) [fabrizio@access3 CRISPRcoverage]
 
