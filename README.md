@@ -17,7 +17,7 @@ biorxiv, https://doi.org/10.1101/2023.05.22.541757
 
 #### SCRIPTS
 
-*./script_cov.sh*
+*script_cov.sh*
 #script to compute genome-wide coverage using GATK
 #you can run this by:
 #./script_cov.sh myinput.bam output.tab chrX
