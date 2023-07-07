@@ -2,9 +2,9 @@
 
 Repository for coverage analyses of large scale chromosomal rearrangements induced by Cas9/CRISPR as presented in 
 
-"A CRISPR-induced DNA break can trigger crossover, chromosomal loss and chromothripsis-like rearrangements", Aviva Samach*, Fabrizio Mafessoni*, Or Gross*, Cathy Melamed-Bessudo, Shdema Filler-Hayut, Tal Dahan-Meir, Ziva Amsellem, Wojciech P. Pawlowski, Avraham A. Levy
+**"A CRISPR-induced DNA break can trigger crossover, chromosomal loss and chromothripsis-like rearrangements"**, *Aviva Samach<sup>1</sup>, Fabrizio Mafessoni<sup>1</sup>, Or Gross<sup>1</sup>, Cathy Melamed-Bessudo, Shdema Filler-Hayut, Tal Dahan-Meir, Ziva Amsellem, Wojciech P. Pawlowski, Avraham A. Levy*
 
-*equal contributors
+<sup>1</sup> equal contributors
 
 biorxiv, https://doi.org/10.1101/2023.05.22.541757
 
