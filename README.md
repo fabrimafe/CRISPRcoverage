@@ -44,7 +44,6 @@ The second column indicates the fold-dosage compared to the proximal part of the
 Further help on the R scripts can be obtained using the flag --help.
 
 ### Repository structure
-.
  * [R](./R)
    * [allchr_coverageplot.R](./R/allchr_coverageplot.R)
    * [chrarm_deletions2table.R](./R/chrarm_deletions2table.R)
