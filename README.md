@@ -9,11 +9,29 @@ Repository for coverage analyses of large scale chromosomal rearrangements induc
 
 biorxiv, https://doi.org/10.1101/2023.05.22.541757
 
-### USAGE
+## USAGE
 
 **utilities_LSF** contains bash scripts that load modules on a LSF cluster and can be used to wrap the R scripts and to compute coverage using GATK
 
 **R** contains R scripts for statistical tests and analyses
+
+#### SCRIPTS
+
+*./script_cov.sh*
+#script to compute genome-wide coverage using GATK
+#you can run this by:
+#./script_cov.sh myinput.bam output.tab chrX
+#ARGUMENTS:
+#myinput.bam: a bam file
+#output.tab: the output file
+#chrX: the chromosome for which to compute coverage
+
+*allchr_coverageplot.R*
+script to generate genome-wide coverage plots as in fig.6. of the manuscript
+
+*chrarm_deletions.R*
+script to test the significance of putative chromosomal arm deletions
+
 
 .
  * [R](./R)
