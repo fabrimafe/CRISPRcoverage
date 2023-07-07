@@ -41,6 +41,8 @@ script to test the significance of putative chromosomal arm deletions. The outpu
 
 The second column indicates the fold-dosage compared to the proximal part of the chromosome, which is ~0.5 for a 1-chromosome deletion. p-values are computed with a likelihood ratio test comparing the model with the highest log likelihood ( last column) versus the three different models, i.e. complete deletion, 1-chromosomal deletion and no deletion. The log-likelihood is reported in the loglik columns. Smallest window sizes better control for local coverage, but might have reduced power. Here, the 1Mb window size does not have sufficient power to reject a model with no rearrangement, while the full chromosome analysis and smaller window sizes indicate the loss of one chromosomal arm.
 
+##### Repository structure
+
 .
  * [R](./R)
    * [allchr_coverageplot.R](./R/allchr_coverageplot.R)
