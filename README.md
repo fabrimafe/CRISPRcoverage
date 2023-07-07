@@ -30,7 +30,7 @@ biorxiv, https://doi.org/10.1101/2023.05.22.541757
 script to generate genome-wide coverage plots as in fig.6. of the manuscript
 
 *chrarm_deletions.R*
-script to test the significance of putative chromosomal arm deletions. The output is a list of statistics computed for different window-sizes, before and after the putative CRISPR cut sites. For instance, for plant 1-1 described in the paper:
+script to test the significance of putative chromosomal arm deletions. The output is a list of statistics computed for different window-sizes, before and after the putative CRISPR cut sites, for different window-sizes before and after the cut site (1st column). A window-size of 0 indicates the full chromosome. For instance, for plant 1-1 described in the paper:
 
 | window_size | coverage_pre/coverage_post | pvalue.complete.deletion | pvalue.1chr.deletion | pvalue.no.deletion | loglik.complete.deletion | loglik.1chr.deletion | loglik.no.deletion | best_model |
 | ----------- | -------------------------- | ------------------------ | -------------------- | ------------------ | ------------------------ | -------------------- | ------------- | ---------- |
@@ -38,6 +38,8 @@ script to test the significance of putative chromosomal arm deletions. The outpu
 | 1000 | 0.458333333333333 | 4.06718181990874e-54 | 1 | 0.0148006050561844 | -125.949921546219 | -3.01327685661561 | -7.22636407348871 | 1chr.deletion|
 | 20000 | 0.495229007633588 | 0 | 1 | 4.90826790182424e-29 | -2954.14520522009 | -29.730283024759 | -94.9143296115036 |1chr.deletion |
 | 1e+06 | 0.598689201719632 | 0 | 8.34214803165462e-197 | 1 | -165796.633530543 | -2873.18983097139 | -2421.70188839253 | no.deletion |
+
+The second column indicates the fold-dosage compared to the proximal part of the chromosome, which is ~0.5 for a 1-chromosome deletion. p-values are computed with a likelihood ratio test comparing the model with the highest log likelihood ( last column) versus the three different models, i.e. complete deletion, 1-chromosomal deletion and no deletion. The log-likelihood is reported in the loglik columns. Smallest window sizes better control for local coverage, but might have reduced power. Here, the 1Mb window size does not have sufficient power to reject a model with no rearrangement, while the full chromosome analysis and smaller window sizes indicates a 1-chromosomal deletion.
 
 .
  * [R](./R)
