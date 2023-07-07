@@ -26,5 +26,5 @@ R contains R scripts for statistical tests and analyses
  * [utilities_LSF](./utilities_LSF)
    * [chrarm_deletions2table.sh](./utilities_LSF/chrarm_deletions2table.sh)
    * [script_cov.sh](./utilities_LSF/script_cov.sh)
- * [README.md](./README.md)(base) [fabrizio@access3 CRISPRcoverage]
+ * [README.md](./README.md)
 
